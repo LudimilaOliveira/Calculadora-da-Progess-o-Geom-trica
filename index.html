@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicial</title>
+    <link rel="shortcut icon" href="img/lua.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 class="text-main">Calculadora de <br>Progessão Geométrica </br></h1>
+            <p>Progressão geométrica (PG) é uma sequência numérica em que, após o primeiro termo, os termos posteriores da sequência são construídos a partir da multiplicação de uma razão q pelo termo antecessor. Em outras palavras, a diferença entre dois termos quaisquer e consecutivos de uma PG é uma constante.</p> 
+            <p>Cada termo dessa PG, exceto o primeiro, é resultado de um produto de <br> seu antecessor por 3, pois 3 = 3·1, 9 = 3·3 e assim por diante.</p>
+            
+            <div class="button">
+                <button onclick="abrir('popup.html')" class="btn">Abrir</button>
+            </div>
+
+            <script>
+                function abrir(URL){
+                    window.open(URL, 'janela', 'width=480, height=540, top=100, left=699, scrollbars=no, status=no, toolbar=no, location=no, menubar=no, resizable=no, fullscreen=no');
+                }
+            </script>
+            <script src="popup.html"></script>
+        </div>
+    </div>
+</body>
+</html>
