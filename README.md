@@ -1,0 +1,1 @@
+# Calculadora-da-Progess-o-Geom-trica
